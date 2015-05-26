@@ -71,6 +71,9 @@
 		7DA9CF161B151897007C3E12 /* SPZDocumentKit */ = {
 			isa = PBXGroup;
 			children = (
+				7DA9CF321B15195C007C3E12 /* Local */,
+				7DA9CF311B15194A007C3E12 /* Cloud */,
+				7DA9CF301B151942007C3E12 /* Core */,
 				7DA9CF191B151897007C3E12 /* SPZDocumentKit.h */,
 				7DA9CF171B151897007C3E12 /* Supporting Files */,
 			);
@@ -100,6 +103,27 @@
 				7DA9CF251B151897007C3E12 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DA9CF301B151942007C3E12 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		7DA9CF311B15194A007C3E12 /* Cloud */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cloud;
+			sourceTree = "<group>";
+		};
+		7DA9CF321B15195C007C3E12 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Local;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

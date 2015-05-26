@@ -16,4 +16,18 @@ FOUNDATION_EXPORT const unsigned char SPZDocumentKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SPZDocumentKit/PublicHeader.h>
 
+// Document Information Change Notifications
+#define kSPZDocumentStoreNotificationDocumentAdded  @"SPZDocumentStoreAdded"
+#define kSPZDocumentStoreNotificationDocumentUpdated @"SPZDocumentStoreUpdated"
+#define kSPZDocumentStoreNotificationDocumentRemoved @"SPZDocumentStoreRemoved"
 
+// Need to ask user for information
+#define kSPZDocumentStoreNotificationPromptEnableCloud @"SPZDocumentStorePromptEnableCloud"
+#define kSPZDocumentStoreNotificationPromptCloudUnavailable @"SPZDocumentStorePromptCloudUnavailable"
+#define kSPZDocumentStoreNotificationPromptMoveCloudToLocal @"SPZDocumentStorePromptMoveCloudToLocal"
+
+// Request Title for Document
+#define kSPZDocumentStoreNeedsTitleForDocument @"SPZDocumentStoreNeedsTitleForDocument"
+
+// Storage is online
+#define kSPZDocumentStoreReady @"SPZDocumentStoreReady"
